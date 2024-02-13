@@ -87,7 +87,7 @@ a:hover {
     margin-left: 5px;
 }
 
-.tech-stack,
+.tech-skills,
 .communities,
 .experience,
 .education {
@@ -99,7 +99,7 @@ a:hover {
 }
 
 .profile .bio-text > h2,
-.tech-stack > h2,
+.tech-skills > h2,
 .projects > h2,
 .communities > h2,
 .experience > h2,
@@ -109,7 +109,7 @@ a:hover {
 }
 
 .profile .bio-text > span,
-.tech-stack > span,
+.tech-skills > span,
 .projects > span,
 .communities > span,
 .experience > span,
@@ -124,8 +124,8 @@ a:hover {
 }
 
 
-/* STACK */
-.tech-stack .stack-imgs {
+/* skills */
+.tech-skills .skills-imgs {
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -134,7 +134,7 @@ a:hover {
     justify-content: space-between;
 }
   
-.tech-stack .stack-imgs > img {
+.tech-skills .skills-imgs > img {
     width: 100px;
     height: 100px;
     margin: 10px;
@@ -165,8 +165,8 @@ a:hover {
 
 
 
-/* PROJECTS */
-.projects {
+/* EXPERIENCE */
+.experience {
     /* padding: 20px; */
     margin-top: 30px;
     display: flex;
@@ -174,7 +174,7 @@ a:hover {
     flex-wrap: wrap;
 }
   
-.projects .project-section {
+.experience .experience-section {
     /* padding: 5px; */
     display: flex;
     flex-wrap: wrap;
@@ -182,12 +182,12 @@ a:hover {
     justify-content: space-evenly;
 }
 
-.projects .project-section .content {
+.experience .experience-section .content {
     width: 350px;
     margin: 10px;
 }
 
-.projects .background {
+.experience .background {
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
